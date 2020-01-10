@@ -1,0 +1,119 @@
+.App {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.Header {
+  background-color: rgb(0, 180, 224);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  height: 7vh;
+  width: 100%;
+  padding-left: 35px;
+  padding-top: 45px;
+}
+
+.name {
+  background-color: transparent;
+  font-size: 24px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bold {
+  font-size: 16px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.reg {
+  font-size: 16px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.previous {
+  background-color: black;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  border: none;
+}
+
+.next {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  border: none; 
+}
+
+.container-one {
+  background-color: rgba(255, 255, 255, 0.849);
+  height: 55vh;
+  width: 80%;
+  padding-left: 75px;
+  padding-bottom: 50px;
+}
+
+.edit {
+  background-color: royalblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 5px;
+
+}
+
+.delete {
+  background-color: royalblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 5px;
+
+}
+
+.new {
+  background-color: royalblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 5px;
+
+}
+
+.cardNumber {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  padding-right: 20px;
+}
